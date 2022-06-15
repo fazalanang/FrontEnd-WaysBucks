@@ -1,0 +1,219 @@
+.profile {
+    display: flex;
+    margin-right: 200px ;
+    margin-left:  200px ;
+    margin-top: 40px;
+}
+
+.profile .profileRight {
+    flex: 45%;
+    display: flex;
+}
+
+.profile .profileLeft {
+    flex: 55%;
+}
+
+.profile .profileRight .profileContainerRight {
+    flex: 30%;
+    margin-right: 0%;
+}
+
+.profile .profileRight .profileContainerRight h1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BD0707;
+    margin-bottom: 30px
+}
+
+.profile .profileRight .profileContainerRight img {
+    width: 220px;
+    height: 271.79px;
+    margin-right: 0%;
+}
+
+.profile .profileRight .profileContainerLeft {
+    flex: 70%;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.profile .profileRight .profileContainerLeft h5 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    color: #613D2B;
+    margin-bottom: 0%;
+}
+
+.profile .profileRight .profileContainerLeft p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.profile .profileLeft h1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.profile .profileLeft .orderContainer {
+    position: absolute;
+    background: #F7DADA;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-radius: 10px;
+    display: flex ;
+}
+
+.profile .profileLeft .orderContainerLeft {
+    flex: 80%;
+}
+
+.profile .profileLeft .orderContainerRight {
+    flex: 20%;
+    width: 250px;
+    height: 261px;
+}
+
+.profile .profileLeft .order {
+    margin-bottom: 10px;
+}
+
+
+.profile .profileLeft .order .orderList {
+   display: flex;
+}
+
+.profile .profileLeft .order .orderList img{
+    width: 100px;
+    height: 117px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.profile .profileLeft .order .orderList .containerTransaction h3 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20.5px;
+    display: block;
+    line-height: 19px;
+    align-items: center;
+    color: #BD0707;
+    margin-bottom: 0%;
+    margin-top: 6px;
+}
+
+.profile .profileLeft .order .orderList .drink {
+    flex: 95%;
+}
+
+.profile .profileLeft .order .orderList .containerTransaction p b {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 19px; 
+    align-items: center;
+    color: #BD0707;
+}
+
+
+.profile .profileLeft .order .orderList .containerTransaction p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    align-items: center;
+    color: #BD0707;
+    margin-top: 10px;
+}
+
+.profile .profileLeft .order .orderList .containerTransaction .topping p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    color: #BD0707;
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+
+.profile .profileLeft .order .orderList .containerTransaction .topping p b {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px; 
+    align-items: center;
+    color: #974A4A;
+    margin-top: 0%;
+}
+
+.profile .profileLeft .orderContainerRight .orderRight {
+    align-items: flex-end;
+}
+
+.profile .profileLeft .orderContainerRight .orderRight .logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    margin-right:0%;
+    display: block;
+}
+
+.profile .profileLeft .orderContainerRight .orderRight .barcode {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.profile .profileLeft .orderContainerRight .orderRight button {
+    width: 147px;
+    height: 25px;
+    background: #c1d9df;
+    border-radius: 5px;
+    border: none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    color: #50abe0;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+.profile .profileLeft .orderContainerRight .orderRight p {
+    margin-top: 13px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.profile .profileLeft .orderContainerRight .orderRight p b {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px; 
+    color: #974A4A;
+}

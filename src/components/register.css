@@ -1,0 +1,65 @@
+body {
+    background-color: transparent;
+}
+
+.containerRegister {
+    background-color: white;
+    border-radius: 10px;
+    width: 380px;
+    height: 470px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-left: 550px;
+    margin-top: 150px;
+}
+
+.containerRegister h1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+    color: #BD0707;
+    margin-bottom: 30px;
+    margin-top: 40px
+}
+
+.containerRegister  input {
+    display: block;
+    width: 350px;
+    height: 50px;
+    background: rgba(224, 200, 200, 0.25);
+    border: 2px solid #BD0707;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.containerRegister .button button {
+    width: 350px;
+    height: 50px;
+    background: #BD0707;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+}
+
+.teks p {
+width: 293px;
+height: 25px;
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: #000000;
+align-items: center;
+margin-left: 30px;
+}
+
+.teks p a {
+    text-decoration: none;
+    color: #000000;
+}

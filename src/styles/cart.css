@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+}
+.containerCart {
+    display: flex;
+}
+
+.containerCart .cartLeft {
+    flex: 70%;
+    margin-left: 165px;
+    margin-right: 105px;
+}
+
+.containerCart .cartRight {
+    flex: 30%;
+    margin-right: 195px;
+    margin-top: 168px;
+}
+
+.containerCart .cartLeft h1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #BD0707;
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.containerCart .cartLeft p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #BD0707;
+    margin-top: 10px;
+}
+
+.containerCart .cartLeft .order {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.containerCart .cartLeft .order .orderLeft {
+   flex: 70%;
+   display: flex;
+}
+
+.containerCart .cartLeft .order .orderRight {
+    flex:30%
+}
+
+.containerCart .cartLeft .order .orderLeft img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    flex: 15%;
+    margin-right: 15px;
+}
+
+.containerCart .cartLeft .order .orderLeft h3 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 19px;
+    align-items: center;
+    color: #BD0707;
+    margin-bottom: 0%;
+}
+
+.containerCart .cartLeft .order .orderLeft .drink {
+    flex: 85%;
+}
+
+.containerCart .cartLeft .order .orderLeft .toppingBoba {
+    display: flex;
+}
+
+.containerCart .cartLeft .order .orderLeft .toppingBoba h4 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #974A4A;
+}
+
+
+.containerCart .cartLeft .order .orderLeft .toppingBoba p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #BD0707;
+    margin-top: 17px;
+}
+
+.containerCart .cartLeft .order .orderRight img {
+    width: 20px;
+    height: 23px;
+    margin-left: 210px;
+}
+
+.containerCart .cartLeft .order .orderRight p {
+    margin-top: 15px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #BD0707;
+    margin-left: 160px;
+}
+
+.containerCart .cartLeft .transaction {
+    display: flex;
+}
+
+.containerCart .cartLeft .transaction .transactionLeft {
+    flex:60%;
+    margin-top: 0%;
+}
+
+.containerCart .cartLeft .transaction .transactionRight{
+    flex: 40%;
+}
+
+.containerCart .cartLeft .transaction .transactionLeft hr {
+    margin-top: 40px;
+}
+
+.containerCart .cartLeft .transaction .transactionLeft .line hr {
+    margin-top: 0%;
+}
+
+.containerCart .cartLeft .total {
+    display: flex;
+}
+
+.containerCart .cartLeft .textCart {
+    flex: 80%;
+}
+
+.containerCart .cartLeft .number {
+    flex: 20%;
+}
+
+.containerCart .cartLeft .transaction .transactionRight button {
+    position: absolute;
+    width: 216px;
+    height: 122px;
+    background: rgba(224, 200, 200, 0.25);
+    border: 2px solid #BD0707;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 97px;
+    color: gray;
+    margin-top: 40px;
+}
+
+.containerCart .cartLeft .transaction .transactionRight button img {
+    display: block;
+    margin-left: 75px;
+    width: 43.75px;
+    height: 50px;
+    padding-bottom: 15px;
+    
+}
+
+.containerCart .cartRight input{
+    width: 350px;
+    height: 50px;
+    background: rgba(224, 200, 200, 0.25);
+    border: 2px solid #BD0707;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.containerCart .cartRight textarea{
+    width: 350px;
+    height: 150px;
+    background: rgba(224, 200, 200, 0.25);
+    border: 2px solid #BD0707;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.containerCart .cartRight button {
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    background: #BD0707;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin-top: 25px;
+    }

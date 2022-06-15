@@ -1,0 +1,145 @@
+.contentDetail {
+    display: flex;
+}
+
+.contentLeft {
+    flex: 30%;
+    margin-right: 70px;
+}
+
+.contentLeft img {
+    position: absolute;
+    width: 436px;
+    height: 555px;
+    left: 195px;
+    top: 172px;
+    border-radius: 10px;
+}
+
+.contentRight {
+    flex: 70%;
+    margin-left: 250px;
+}
+
+.contentRight .textDetail h1 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 66px;
+    color: #BD0707;
+    margin-top: 85px;
+    margin-bottom: 0%;
+}
+
+.contentRight .textDetail p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #974A4A;
+    margin-top: 10px;
+}
+
+.contentRight h5 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #974A4A;
+    margin-top: 80px;
+}
+
+.contentRight .topping {
+    align-items: center;
+    justify-content: center;
+}
+
+.contentRight .topping p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BD0707;
+}
+
+.contentRight .topping img {
+    width: 85px;
+    height: 90px;
+    margin-left:10px
+}
+
+.contentRight .topping .lineOne{
+    display: flex;
+}
+
+.contentRight .topping .lineOne .one {
+    margin: 20px;
+    align-items: center;
+}
+
+.contentRight .topping .lineOne .two {
+    margin: 20px;
+    align-items: center;
+}
+
+.contentRight .topping .lineOne .three {
+    margin: 20px;
+    align-items: center;
+}
+
+.contentRight .topping .lineOne .four {
+    margin: 20px;
+    align-items: center;
+}
+
+.contentRight .topping .lineTwo{
+    display: flex;
+}
+
+.contentRight .topping .lineTwo .five {
+    margin: 20px;
+    align-items: center;
+}
+
+.contentRight .topping .lineTwo .six {
+    margin: 20px;
+    align-items: center;
+}
+
+.contentRight .topping .lineTwo .seven {
+    margin: 20px;
+    align-items: center;
+}
+
+.contentRight .topping .lineTwo .eight {
+    margin: 20px;
+    align-items: center;
+}
+
+.priceDetail {
+    display: flex;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #974A4A;
+}
+
+.priceDetail .no{
+    margin-left: 400px;
+}
+
+.detailBtn {
+    position: absolute;
+    width: 600px;
+    height: 45px;
+    background: #BD0707;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}

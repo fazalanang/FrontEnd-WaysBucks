@@ -1,0 +1,185 @@
+.profileeLeft {
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+
+}
+
+.profileeLeft .orderrContainer {
+    position: absolute;
+    background: #F7DADA;
+    margin-left: 440px;
+    margin-top: 200px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-radius: 10px;
+    display: flex ;
+}
+
+
+
+.profileeLeft .orderrContainerLeft {
+    flex: 80%;
+}
+
+
+
+.profileeLeft .orderrContainerRight {
+    flex: 20%;
+    width: 250px;
+    height: 261px;
+}
+
+
+
+.profileeLeft .orderr {
+    margin-bottom: 10px;
+}
+
+
+
+
+.profileeLeft .orderr .orderrList {
+   display: flex;
+}
+
+
+
+.profileeLeft .orderr .orderrList img{
+    width: 100px;
+    height: 117px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+
+
+.profileeLeft .orderr .orderrList .containerrTransaction h3 {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20.5px;
+    display: block;
+    line-height: 19px;
+    align-items: center;
+    color: #BD0707;
+    margin-bottom: 0%;
+    margin-top: 6px;
+}
+
+
+
+.profileeLeft .orderr .orderrList .containerrTransaction p b {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 19px; 
+    align-items: center;
+    color: #BD0707;
+}
+
+
+
+
+.profileeLeft .orderr .orderrList .containerrTransaction p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    align-items: center;
+    color: #BD0707;
+    margin-top: 10px;
+}
+
+
+
+.profileeLeft .orderr .orderrList .containerrTransaction .toppiing p {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    color: #BD0707;
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+
+
+
+.profileeLeft .orderr .orderrList .containerrTransaction .toppiing p b {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px; 
+    align-items: center;
+    color: #974A4A;
+    margin-top: 0%;
+}
+
+
+
+.profileeLeft .orderrContainerRight .orderrRight {
+    align-items: flex-end;
+}
+
+
+
+.profileeLeft .orderrContainerRight .orderrRight .logoo {
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    margin-right:0%;
+    display: block;
+}
+
+
+
+.profileeLeft .orderrContainerRight .orderrRight .barcoode {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+
+
+.profileeLeft .orderrContainerRight .orderrRight button {
+    width: 147px;
+    height: 25px;
+    background: rgba(444,555,0, 0.2);
+    border-radius: 5px;
+    border: none;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    color: orange;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+
+
+.profileeLeft .orderrContainerRight .orderrRight p {
+    margin-top: 13px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+
+
+.profileeLeft .orderrContainerRight .orderRight p b {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px; 
+    color: #974A4A;
+}
